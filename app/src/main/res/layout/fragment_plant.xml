@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="32dp">
+
+        <ImageView
+            android:id="@+id/imageViewPlantPhoto"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_plant"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/plant_photo"
+            android:background="@color/gray"
+            android:layout_marginTop="48dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+        <TextView
+            android:id="@+id/textViewPlantName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/plant_name"
+            android:textAlignment="center"
+            android:textColor="@color/green_dark"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/imageViewPlantPhoto"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewPlantingYearLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plant_planting_year"
+            android:textColor="@color/green_dark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@id/textViewPlantName"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="32dp" />
+
+        <TextView
+            android:id="@+id/textViewPlantingYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plant_planting_year_2000"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/textViewPlantingYearLabel"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="32dp" />
+
+        <TextView
+            android:id="@+id/textViewCareInstructionsLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plant_care_instructions"
+            android:textColor="@color/green_dark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@id/textViewPlantingYear"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="32dp" />
+
+        <TextView
+            android:id="@+id/textViewCareInstructions"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/plant_care_instructions"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:scrollbars="vertical"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/textViewCareInstructionsLabel"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">PlantDiary</string>
+    <string name="plant_diary">Plant Diary</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="surname">Surname</string>
+    <string name="name">Name</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="fill_all_fields">Fill all fields</string>
+    <string name="passwords_are_not_the_same">Passwords are not the same</string>
+    <string name="incorrect_email_or_password">Incorrect email or password</string>
+    <string name="error_unknown_user">Unknown user error</string>
+    <string name="error_unknown_plant">Unknown plant error</string>
+    <string name="alert_delete_message">Are you sure to delete this plant?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="plants">Plants</string>
+    <string name="logout">Logout</string>
+    <string name="add_plant">Add plant</string>
+    <string name="invalid_email">Invalid email</string>
+    <string name="invalid_year">Invalid year</string>
+    <string name="year_in_future">Such a year has not yet arrived</string>
+    <string name="user_already_exists">This user is already registered</string>
+    <string name="plant_photo">Plant photo</string>
+    <string name="plant_name">Plant name</string>
+    <string name="plant_planting_year_2000">2000</string>
+    <string name="plant_planting_year">Planting year</string>
+    <string name="plant_care_instructions">Plant care recommendations</string>
+    <string name="choose_photo">Choose photo</string>
+    <string name="save">Save</string>
+    <string name="enter_plant_name">Enter plant name</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="no_photo_selected">No photo selected</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
