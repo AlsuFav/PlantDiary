@@ -5,7 +5,11 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
         <item name="colorPrimary">@color/green_dark</item>
         <item name="colorPrimaryVariant">@color/green_dark</item>
-        <item name="android:statusBarColor">@color/green_dark</item>
+
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
     </style>
 
     <style name="Theme.PlantDiary" parent="Base.Theme.PlantDiary" />
